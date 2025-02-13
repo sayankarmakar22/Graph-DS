@@ -75,26 +75,7 @@ void printGraphMatrix(int mat[][5]) {
 
 
 int main() {
-    //adjacency matrix
-    // int mat[5][5] = {0};
-    // mat[1][2] = 1;
-    // mat[1][3] = 1;
-    // mat[1][4] = 1;
-    // mat[2][1] = 1;
-    // mat[2][3] = 1;
-    // mat[3][1] = 1;
-    // mat[3][2] = 1;
-    // mat[4][1] = 1;
-    // for(int i = 0; i < 4; i++) {
-    //     int j,k;
-    //     cout << "j and k  : ";
-    //     cin >> j >> k;
-    //     CreateGraphMatrix(mat,j,k);
-    // }
-    // printGraphMatrix(mat);
-
-    // adjacency list
-    CreateGraphMatrix();
-    // CreateGraphList();
+    // CreateGraphMatrix();
+    CreateGraphList();
     return 0;
 }
